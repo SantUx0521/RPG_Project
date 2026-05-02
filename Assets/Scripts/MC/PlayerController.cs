@@ -79,5 +79,7 @@ public class PlayerController : MonoBehaviour
 
         anim.SetBool("Up", movingForward);
         anim.SetBool("Down", movingBackward);
+        anim.SetBool("Right", movingRight);
+        anim.SetBool("Left", movingLeft);
     }
 }
